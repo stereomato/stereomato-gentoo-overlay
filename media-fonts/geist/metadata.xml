@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pkgmetadata>
+  <maintainer type="person">
+    <email>stereomato@proton.me</email>
+    <name>stereomato</name>
+  </maintainer>
+  <longdescription lang="en">
+    OTF-only install of the Geist and GeistMono typefaces.
+  </longdescription>
+</pkgmetadata>
