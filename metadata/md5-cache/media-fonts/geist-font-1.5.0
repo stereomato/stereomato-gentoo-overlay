@@ -1,0 +1,13 @@
+BDEPEND=app-arch/unzip X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
+DEFINED_PHASES=install postinst postrm setup
+DESCRIPTION=Geist is a new font family for Vercel.
+EAPI=8
+HOMEPAGE=https://vercel.com/font
+INHERIT=font
+IUSE=X
+KEYWORDS=~amd64
+LICENSE=OFL-1.1
+SLOT=0
+SRC_URI=https://github.com/vercel/geist-font/releases/download/1.5.0/geist-font-1.5.0.zip
+_eclasses_=font	aa113a3df9cd0a9693a1c1ee7c34a6eb
+_md5_=3aa8e0e79e62ca0e614473a9a7bfb3c6
