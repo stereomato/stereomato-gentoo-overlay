@@ -8,7 +8,7 @@ inherit font
 DESCRIPTION="Geist is a new font family for Vercel."
 HOMEPAGE="https://vercel.com/font"
 SRC_URI="https://github.com/vercel/geist-font/releases/download/${PV}/geist-font-${PV}.zip"
-S="${WORKDIR}"
+S="${WORKDIR}/${P}/fonts"
 
 LICENSE="OFL-1.1"
 SLOT="0"
