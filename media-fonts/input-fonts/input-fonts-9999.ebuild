@@ -24,8 +24,8 @@ src_install() {
 
    insinto "${FONTDIR}"
    doins "${S}/Input_Fonts/"SETTINGS.txt
-   doins "${S}"LICENSE.txt
-   doins "${S}"README.txt
+   doins "${S}/"LICENSE.txt
+   doins "${S}/"README.txt
 
    insinto "${FONTDIR}/InputMono/InputMono"
 	find "${S}/Input_Fonts/InputMono/InputMono" -type f -name "*.ttf" -exec doins {} +
