@@ -1,0 +1,13 @@
+BDEPEND=app-arch/unzip X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
+DEFINED_PHASES=install postinst postrm setup
+DESCRIPTION=Input is a flexible system of fonts designed specifically for code by David Jonathan Ross.
+EAPI=8
+HOMEPAGE=https://input.djr.com/
+INHERIT=font
+IUSE=X
+KEYWORDS=~amd64
+LICENSE=EULA
+SLOT=0
+SRC_URI=https://input.djr.com/build/?fontSelection=whole&a=0&g=ss&i=serif&l=serif&zero=slash&asterisk=0&braces=straight&preset=default&line-height=1.2&accept=I+do&email=&.zip
+_eclasses_=font	aa113a3df9cd0a9693a1c1ee7c34a6eb
+_md5_=89a4701a30089badd3f730163e16dbc7
