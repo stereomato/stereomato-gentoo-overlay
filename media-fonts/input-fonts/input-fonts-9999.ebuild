@@ -8,7 +8,7 @@ inherit font
 DESCRIPTION="Input is a flexible system of fonts designed specifically for code by David Jonathan Ross."
 HOMEPAGE="https://input.djr.com/"
 SRC_URI="https://input.djr.com/build/?fontSelection=whole&a=0&g=ss&i=serif&l=serif&zero=slash&asterisk=0&braces=straight&preset=default&line-height=1.2&accept=I+do&email=&.zip"
-S="${WORKDIR}/${P}"
+S="${WORKDIR}"
 
 LICENSE="EULA"
 SLOT="0"
