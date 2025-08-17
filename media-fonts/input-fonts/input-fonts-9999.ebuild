@@ -22,7 +22,7 @@ FONTDIR="/usr/share/fonts/Input_Fonts"
 
 src_install() {
 
-   insinto "${S}"
+   insinto "${FONTDIR}"
    doins SETTINGS.txt
    doins LICENSE.txt
    doins README.txt
