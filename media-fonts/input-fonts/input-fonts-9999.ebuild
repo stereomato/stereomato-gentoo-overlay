@@ -23,9 +23,9 @@ FONTDIR="/usr/share/fonts/Input_Fonts"
 src_install() {
 
    insinto "${FONTDIR}"
-   doins "${S}"/SETTINGS.txt
-   doins "${S}"/LICENSE.txt
-   doins "${S}"/README.txt
+   doins "${S}/Input_Fonts/"SETTINGS.txt
+   doins "${S}/Input_Fonts/"LICENSE.txt
+   doins "${S}/Input_Fonts/"README.txt
 
    insinto "${FONTDIR}/InputMono/InputMono"
 	find "${S}/Input_Fonts/InputMono/InputMono" -type f -name "*.ttf" -exec doins {} +
